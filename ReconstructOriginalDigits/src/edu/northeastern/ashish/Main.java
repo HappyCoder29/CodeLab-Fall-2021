@@ -15,6 +15,8 @@ public class Main {
         String str = "zroefzevierofuro";
 
         System.out.println( reconstructOriginalDigits(str.toLowerCase()) );
+
+
     }
 
     private static String reconstructOriginalDigits(String str){
