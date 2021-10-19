@@ -40,7 +40,7 @@
 <li>First Bad Version	https://leetcode.com/problems/first-bad-version/</li>
 <li>Best Time to Buy and Sell Stock II	https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/</li>
 <li>Single Number	https://leetcode.com/problems/single-number/</li>
-<li>Remove Duplicates from Sorted Array	https://leetcode.com/problems/remove-duplicates-from-sorted-array/ **Git Hub** Link : https://github.com/HappyCoder29/CodeLab-Fall-2021/tree/main/RemoveDuplicatesFromSortedArray/src/edu/northeastern/ashish</li>
+<li>Remove Duplicates from Sorted Array	https://leetcode.com/problems/remove-duplicates-from-sorted-array/ GitHub Link : https://github.com/HappyCoder29/CodeLab-Fall-2021/tree/main/RemoveDuplicatesFromSortedArray/src/edu/northeastern/ashish</li>
 
 </ol>
 
