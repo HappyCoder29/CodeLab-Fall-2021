@@ -5,7 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
         int[] arr = {5,7,7,8,8,10};
-        int[] result = findFirstAndLast(arr, 8);
+        int[] result = findFirstAndLast(arr, 10);
         if(result != null){
             System.out.println("First Position = " + result[0]);
             System.out.println("Last Position = " + result[1]);
@@ -77,7 +77,7 @@ public class Main {
             return -1;
         }
         if(arr[low] == x && arr[high] == x){
-            return low;
+            return high;
         }
 
         int mid = (low + high)/2;
@@ -87,7 +87,7 @@ public class Main {
         }else if (arr[mid] > x){
             return findLastPosition(arr, x, low, mid -1);
         }else{
-            return findLastPosition(arr, x, mid, high -1  ) ;
+            return findLastPosition(arr, x, mid, high -1 ) ;
         }
     }
 }
