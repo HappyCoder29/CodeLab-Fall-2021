@@ -1,5 +1,5 @@
 # CodeLab Fall 2021
-##Week 1
+## Week 1
 <ol>
 <li>Multiply Strings	https://leetcode.com/problems/multiply-strings/</li>
 <li>String Compression	https://leetcode.com/problems/string-compression/ [GitHub Link](https://github.com/HappyCoder29/CodeLab-Fall-2021/blob/main/StringCompression/src/edu/northeastern/ashish/Main.java)</li>
