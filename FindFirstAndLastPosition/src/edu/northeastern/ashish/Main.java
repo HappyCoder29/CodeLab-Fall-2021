@@ -1,11 +1,13 @@
 package edu.northeastern.ashish;
 
+import java.util.ArrayList;
+
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 public class Main {
 
     public static void main(String[] args) {
         int[] arr = {5,7,7,8,8,10};
-        int[] result = findFirstAndLast(arr, 10);
+        int[] result = findFirstAndLast(arr, 7);
         if(result != null){
             System.out.println("First Position = " + result[0]);
             System.out.println("Last Position = " + result[1]);
@@ -90,4 +92,5 @@ public class Main {
             return findLastPosition(arr, x, mid, high -1 ) ;
         }
     }
+    
 }
