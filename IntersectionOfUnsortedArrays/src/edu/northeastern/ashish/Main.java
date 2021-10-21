@@ -10,12 +10,12 @@ public class Main {
     public static void main(String[] args) {
         int[] arr1 = {1,2,2,1};
         int[] arr2 = {2,2};
-        Integer[] arr = findIntersectionWithSorting(arr1, arr2);
+        int[] arr = findIntersectionWithSorting(arr1, arr2);
         System.out.println();
 
     }
 
-    private static Integer[] findIntersectionWithHashMap(int[] arr1, int[] arr2){
+    private static int[] findIntersectionWithHashMap(int[] arr1, int[] arr2){
         if(arr1 == null || arr2 == null){
             return null;
         }
@@ -31,12 +31,10 @@ public class Main {
             }
         }
 
-        Integer[] arr = new Integer[list.size()];
-        arr = list.toArray(arr);
-        return arr;
+        return list.stream().mapToInt(i->i).toArray();
     }
 
-    public  static Integer[] findIntersectionWithSorting(int[] nums1, int[] nums2) {
+    public  static int[] findIntersectionWithSorting(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
         Arrays.sort(nums2);
         ArrayList<Integer> list = new ArrayList<>();
@@ -53,8 +51,6 @@ public class Main {
                 j ++;
             }
         }
-        Integer[] arr = new Integer[list.size()];
-        arr = list.toArray(arr);
-        return arr;
+        return  list.stream().mapToInt(k->k).toArray();
     }
 }
