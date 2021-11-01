@@ -2,12 +2,9 @@ package edu.northeastern.ashish;
 
 public class MaxMinStack  {
 
-
     private Stack<Integer> stack;
     private Stack<Integer> maxStack;
     private Stack<Integer> minStack;
-
-
 
     public MaxMinStack(){
         stack = new Stack<>();
@@ -35,9 +32,6 @@ public class MaxMinStack  {
         }else{
             minStack.push(minStack.peek().data);
         }
-
-
-
     }
 
     public Node<Integer> pop(){
@@ -76,16 +70,7 @@ public class MaxMinStack  {
         if(stack.isEmpty()){
             return null;
         }
-        while(stack.peek().data != maxStack.peek().data){
-            stack.pop();
-            maxStack.pop();
-            minStack.pop();
-        }
-
-        Node<Integer> node = stack.pop();
-        maxStack.pop();
-        minStack.pop();
-        return node;
+        return popMaxMin(true);
 
     }
 
@@ -94,18 +79,32 @@ public class MaxMinStack  {
         if(stack.isEmpty()){
             return null;
         }
-        while(stack.peek().data != minStack.peek().data){
-            stack.pop();
-            maxStack.pop();
-            minStack.pop();
-        }
-
-        Node<Integer> node = stack.pop();
-        maxStack.pop();
-        minStack.pop();
-        return node;
+        return popMaxMin(false);
 
     }
 
+    private Node<Integer> popMaxMin(boolean removeMax){
+        Stack<Integer> temp = new Stack<>();
 
+        Stack<Integer> tempStack = removeMax == true ? maxStack : minStack;
+
+        while(stack.peek().data != tempStack.peek().data){
+            temp.push(stack.pop().data);
+            maxStack.pop();
+            minStack.pop();
+        }
+        Node<Integer> node = stack.pop();
+        maxStack.pop();
+        minStack.pop();
+
+        while(!temp.isEmpty()){
+            Integer data = temp.pop().data;
+            stack.push(data);
+            int max = maxStack.peek().data < data ? data : maxStack.peek().data;
+            maxStack.push(max);
+            int min = minStack.peek().data > data ? data : minStack.peek().data;
+            minStack.push(min);
+        }
+        return node;
+    }
 }
