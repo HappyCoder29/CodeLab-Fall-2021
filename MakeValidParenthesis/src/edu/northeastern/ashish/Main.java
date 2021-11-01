@@ -12,7 +12,7 @@ public class Main {
 
     private static String returnValidString(String str){
         Stack<Integer> stack = new Stack<>();
-        ArrayList<Integer> list = new ArrayList<>();
+        ArrayList<Integer> listIndexToRemove = new ArrayList<>();
 
 
         for(int i = 0 ; i < str.length(); i ++){
@@ -24,7 +24,7 @@ public class Main {
             if(ch == ')'){
                 if(stack.isEmpty()){
                     // No matching string
-                    list.add(i);
+                    listIndexToRemove.add(i);
                 }else{
                     stack.pop();
                 }
@@ -32,12 +32,12 @@ public class Main {
         }
 
         while(!stack.isEmpty()){
-            list.add(stack.pop());
+            listIndexToRemove.add(stack.pop());
         }
 
         StringBuilder sb = new StringBuilder();
         for(int i = 0 ; i < str.length(); i ++){
-            if(!list.contains(i)){
+            if(!listIndexToRemove.contains(i)){
                 sb.append(str.charAt(i));
             }
         }
