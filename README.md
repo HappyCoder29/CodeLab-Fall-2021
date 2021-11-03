@@ -44,3 +44,91 @@
 
 </ol>
 
+## Week 2
+<ol>
+<li>Valid Parentheses https://leetcode.com/problems/valid-parentheses/</li>
+<li>Next Greater Element https://leetcode.com/problems/next-greater-element-i/</li>
+<li>Daily Temperatures https://leetcode.com/problems/daily-temperatures/</li>
+<li>Astroid Collision https://leetcode.com/problems/asteroid-collision/</li> 
+<li>Find the duplicate number https://leetcode.com/problems/find-the-duplicate-number/</li>
+<li>Top K frequent Elements https://leetcode.com/problems/top-k-frequent-elements/</li>
+<li>Buildings with an ocean view https://leetcode.com/problems/buildings-with-an-ocean-view/</li>
+<li>Intersection of Two Arrays II https://leetcode.com/problems/intersection-of-two-arrays-ii/</li>
+<li>Reverse Integer https://leetcode.com/problems/reverse-integer/</li>
+<li>Plus One https://leetcode.com/problems/plus-one/</li>
+<li>String Compression https://leetcode.com/problems/string-compression/</li>
+<li>Container With Most Water https://leetcode.com/problems/container-with-most-water/</li>
+<li>Minimum Remove to Make Valid Parentheses https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/</li>
+<li>Reorder Data in Log Files https://leetcode.com/problems/reorder-data-in-log-files/</li>
+<li>Basic Calculator https://leetcode.com/problems/basic-calculator/</li>
+<li>Next Greater Element II https://leetcode.com/problems/next-greater-element-ii/</li>
+<li>Pascal's Triangle https://leetcode.com/problems/pascals-triangle/</li>
+<li>Find All Anagrams in a String https://leetcode.com/problems/find-all-anagrams-in-a-string/solution/</li>
+<li>Remove K Digits https://leetcode.com/problems/remove-k-digits/</li>
+<li>Reverse Words in a String https://leetcode.com/problems/reverse-words-in-a-string/</li>
+<li>Min Stack https://leetcode.com/problems/min-stack/</li>
+<li>Max Stack https://leetcode.com/problems/max-stack/</li>
+<li>Check If String Is a Prefix of Array https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/</li>
+<li>Decode String https://leetcode.com/problems/decode-string/</li>
+<li>Backspace String Compare https://leetcode.com/problems/backspace-string-compare/</li>
+<li>Remove All Adjacent Duplicates in String II https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/</li>
+<li>Find K Pairs with Smallest Sums https://leetcode.com/problems/find-k-pairs-with-smallest-sums/</li>
+<li>Isomorphic Strings https://leetcode.com/problems/isomorphic-strings/</li>
+<li>Maximum Product of Two Elements in an Array https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/</li>    
+<li>Replace Elements with Greatest Element on Right Side https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/</li>
+<li>Check If N and Its Double Exist https://leetcode.com/problems/check-if-n-and-its-double-exist/</li>
+<li>Reverse String https://leetcode.com/problems/reverse-string/</li>
+<li>Remove All Adjacent Duplicates In String https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/</li>
+<li>Best Time to Buy and Sell Stock https://leetcode.com/problems/best-time-to-buy-and-sell-stock/</li>
+<li>Implement Queue using Stacks https://leetcode.com/problems/implement-queue-using-stacks/</li>
+<li>Sign of the Product of an Array https://leetcode.com/problems/sign-of-the-product-of-an-array/</li>
+<li>Remove Duplicate Letters https://leetcode.com/problems/remove-duplicate-letters/</li>
+<li>Verifying an Alien Dictionary https://leetcode.com/problems/verifying-an-alien-dictionary/</li>
+<li>Valid Parentheses https://leetcode.com/problems/valid-parentheses/</li>
+<li>Maximum Subarray https://leetcode.com/problems/maximum-subarray/</li>
+<li>First Unique Character in a String https://leetcode.com/problems/first-unique-character-in-a-string/</li>
+</ol>
+
+## Week 3
+<ol>
+<li>Maximum Depth of Binary Tree https://leetcode.com/problems/maximum-depth-of-binary-tree/solution/</li>
+<li>Balanced Binary Tree https://leetcode.com/problems/balanced-binary-tree/</li>
+<li>Palindrome Linked List https://leetcode.com/problems/palindrome-linked-list/solution/</li>
+<li>Reverse Linked List II https://leetcode.com/problems/reverse-linked-list-ii/</li>
+<li>Lowest Common Ancestor of a Binary Tree https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/solution/</li>
+<li>Odd Even Linked List https://leetcode.com/problems/odd-even-linked-list/</li>
+<li>Populating Next Right Pointers in Each Node https://leetcode.com/problems/populating-next-right-pointers-in-each-node/ </li>
+<li>Kth Smallest Element in a BST https://leetcode.com/problems/kth-smallest-element-in-a-bst/</li>
+<li>Intersection of Two Linked Lists https://leetcode.com/problems/intersection-of-two-linked-lists/</li>
+<li>Serialize and Deserialize Binary Tree https://leetcode.com/problems/serialize-and-deserialize-binary-tree/</li>
+<li>Validate Binary Search Tree https://leetcode.com/problems/validate-binary-search-tree/</li>
+<li>Delete Node in BST https://leetcode.com/problems/delete-node-in-a-bst/</li>
+<li>Path Sum https://leetcode.com/problems/path-sum/</li>
+<li>Diameter of Binary Tree https://leetcode.com/problems/diameter-of-binary-tree/</li>
+<li>Range Sum Of BST https://leetcode.com/problems/range-sum-of-bst/</li>
+<li>Linked List Cycle https://leetcode.com/problems/linked-list-cycle/</li>
+<li>Add 2 Numbers https://leetcode.com/problems/add-two-numbers/</li>
+<li>Rotate List https://leetcode.com/problems/rotate-list/</li>
+<li>Reorder List https://leetcode.com/problems/reorder-list/</li>
+<li>Insert into Sorted Circular Linked List https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/</li>
+<li>Merge Two Sorted Lists https://leetcode.com/problems/merge-two-sorted-lists/</li>
+<li>Add Two Numbers II https://leetcode.com/problems/add-two-numbers-ii/</li>
+<li>Simplify Path https://leetcode.com/problems/simplify-path/</li>
+<li>First Unique Character in a String https://leetcode.com/problems/first-unique-character-in-a-string/</li>
+<li>Convert Binary Search Tree to Sorted Doubly Linked List https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/</li>
+<li>Symmetric Tree https://leetcode.com/problems/symmetric-tree/</li>
+<li>Increasing Order Search Tree https://leetcode.com/problems/increasing-order-search-tree/</li>
+<li>Convert Sorted Array to Binary Search Tree https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/</li>
+<li>Invert Binary Tree https://leetcode.com/problems/invert-binary-tree/</li>
+<li>Same Tree https://leetcode.com/problems/same-tree/</li>
+<li>Partition List https://leetcode.com/problems/partition-list/</li>
+<li>Plus One Linked List https://leetcode.com/problems/plus-one-linked-list/</li>
+<li>Binary Tree Paths https://leetcode.com/problems/binary-tree-paths/</li>
+<li>Binary Tree Right Side View https://leetcode.com/problems/binary-tree-right-side-view/</li>
+<li>Swapping Nodes in a Linked List https://leetcode.com/problems/swapping-nodes-in-a-linked-list/</li>
+<li>Sum of Left Leaves https://leetcode.com/problems/sum-of-left-leaves/</li>
+<li>Reverse Nodes in k-Group https://leetcode.com/problems/reverse-nodes-in-k-group/</li>
+<li>Binary Tree Vertical Order Traversal https://leetcode.com/problems/binary-tree-vertical-order-traversal/</li>
+<li>Boundary of Binary Tree https://leetcode.com/problems/boundary-of-binary-tree/</li>
+<li>Sort List https://leetcode.com/problems/sort-list/</li>
+</ol>
