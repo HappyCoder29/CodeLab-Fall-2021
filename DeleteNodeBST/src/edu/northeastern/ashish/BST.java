@@ -37,9 +37,7 @@ public class BST {
                 node.data = getMaximum(node.left).data;
                 node.left = deleteNode(node.left, node.data);
             }
-
         }
-
         return node;
     }
 
