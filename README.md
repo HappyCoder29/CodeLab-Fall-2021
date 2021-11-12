@@ -132,3 +132,118 @@
 <li>Boundary of Binary Tree https://leetcode.com/problems/boundary-of-binary-tree/</li>
 <li>Sort List https://leetcode.com/problems/sort-list/</li>
 </ol>
+## Week 4
+<ol>
+
+<li>Letter Combinations of a Phone Number https://leetcode.com/problems/letter-combinations-of-a-phone-number/</li>
+
+<li>Reverse Nodes in k-Group https://leetcode.com/problems/reverse-nodes-in-k-group/</li>
+
+
+<li>Search in Rotated Sorted Array https://leetcode.com/problems/search-in-rotated-sorted-array/</li>
+
+
+<li>Wildcard Matching https://leetcode.com/problems/wildcard-matching/</li>  
+
+<li>Group Anagrams https://leetcode.com/problems/group-anagrams/</li>
+
+
+<li>Spiral Matrix https://leetcode.com/problems/spiral-matrix/</li>
+
+<li>Merge Intervals https://leetcode.com/problems/merge-intervals/</li>
+
+<li>Word Search https://leetcode.com/problems/word-search/</li>
+
+
+<li>Restore IP Addresses https://leetcode.com/problems/restore-ip-addresses/</li>
+
+<li>Binary Tree Zigzag Level Order Traversal https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/</li>
+<li>LRU Cache https://leetcode.com/problems/lru-cache/</li>
+
+<li>Reverse Words in a String https://leetcode.com/problems/reverse-words-in-a-string/</li>
+
+<li>Read N Characters Given read4 II - Call Multiple Times https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/</li>
+
+
+<li>Number of Islands https://leetcode.com/problems/number-of-islands/</li>
+<li>Course Schedule https://leetcode.com/problems/course-schedule/</li>
+<li>Course Schedule II https://leetcode.com/problems/course-schedule-ii/</li>
+
+
+<li>Word Search II https://leetcode.com/problems/word-search-ii/</li>
+
+<li>Meeting Rooms II https://leetcode.com/problems/meeting-rooms-ii/</li>
+
+
+<li>Integer to English Words https://leetcode.com/problems/integer-to-english-words/</li>
+<li>Find the Celebrity https://leetcode.com/problems/find-the-celebrity/</li>
+
+
+<li>Inorder Successor in BST https://leetcode.com/problems/inorder-successor-in-bst/</li>
+
+
+<li>Find Median from Data Stream https://leetcode.com/problems/find-median-from-data-stream/</li>
+
+<li>Serialize and Deserialize Binary Tree https://leetcode.com/problems/serialize-and-deserialize-binary-tree/</li>
+
+<li>Longest Substring with At Most K Distinct Characters https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/</li>
+
+
+<li>Design Tic-Tac-Toe https://leetcode.com/problems/design-tic-tac-toe/</li>
+
+<li>String Compression https://leetcode.com/problems/string-compression/</li>
+
+<li>Minimum Moves to Equal Array Elements II https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/</li>
+
+<li>Validate IP Address https://leetcode.com/problems/validate-ip-address/</li>
+<li>Single Element in a Sorted Array https://leetcode.com/problems/single-element-in-a-sorted-array/</li>
+
+
+<li>Boundary of Binary Tree https://leetcode.com/problems/boundary-of-binary-tree/</li>
+
+<li>Design In-Memory File System https://leetcode.com/problems/design-in-memory-file-system/</li>
+
+<li>Design Circular Queue https://leetcode.com/problems/design-circular-queue/</li>
+
+<li>Design Search Autocomplete System https://leetcode.com/problems/design-search-autocomplete-system/</li>
+
+<li>Design HashMap https://leetcode.com/problems/design-hashmap/</li>
+
+<li>Max Stack https://leetcode.com/problems/max-stack/</li>
+
+<li>Max Chunks To Make Sorted II https://leetcode.com/problems/max-chunks-to-make-sorted-ii/</li>
+
+<li>Max Chunks To Make Sorted https://leetcode.com/problems/max-chunks-to-make-sorted/</li>
+
+<li>Maximum Frequency Stack https://leetcode.com/problems/maximum-frequency-stack/</li>
+
+
+<li>Partition Array into Disjoint Intervals https://leetcode.com/problems/partition-array-into-disjoint-intervals/</li>
+
+<li>Distribute Coins in Binary Tree https://leetcode.com/problems/distribute-coins-in-binary-tree/</li>
+
+<li>Find Winner on a Tic Tac Toe Game https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/</li>
+
+<li>Find N Unique Integers Sum up to Zero https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/</li>
+
+
+<li>Minimum Insertion Steps to Make a String Palindrome https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/</li>
+
+
+<li>Angle Between Hands of a Clock https://leetcode.com/problems/angle-between-hands-of-a-clock/</li>
+
+
+<li>Longest Happy String https://leetcode.com/problems/longest-happy-string/</li>
+
+<li>Count Good Nodes in Binary Tree https://leetcode.com/problems/count-good-nodes-in-binary-tree/</li>
+
+<li>Minimum Deletion Cost to Avoid Repeating Letters https://leetcode.com/problems/count-good-nodes-in-binary-tree/</li>
+<li>Maximal Network Rank https://leetcode.com/problems/maximal-network-rank/</li>
+
+
+<li>Minimum Deletions to Make Character Frequencies Unique https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/</li>
+
+
+<li>Sign of the Product of an Array https://leetcode.com/problems/sign-of-the-product-of-an-array/</li>
+
+</ol>
