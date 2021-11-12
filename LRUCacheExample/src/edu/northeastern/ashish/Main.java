@@ -15,7 +15,7 @@ public class Main {
         Person per9 = new Person("Person 9", "person9", "Header 1", "Description 1");
         Person per10 = new Person("Person 10", "person10", "Header 1", "Description 1");
 
-        LRUCache< String, Person> cache = new LRUCache<>(5);
+        var cache = new LRUCache<String, Person>(5);
         cache.addValue(per1.loginID, per1);
         cache.addValue(per2.loginID, per2);
         cache.addValue(per3.loginID, per3);
