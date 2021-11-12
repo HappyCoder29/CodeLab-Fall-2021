@@ -7,7 +7,7 @@ import java.util.LinkedList;
 public class LRUCache < S, T> {
     private HashMap<S, T> map;
     private LinkedList<S> list;
-    private Object obj;
+    private final Object obj;
     private int capacity;
 
     public LRUCache(int capacity){
@@ -22,8 +22,8 @@ public class LRUCache < S, T> {
         synchronized (obj){
             if(map.containsKey(key)){
                 // remove the data from the link list and add it to the start of the list
-                S remove =  list.remove();
-                list.add(0, remove);
+                list.remove(key);
+                list.add(0, key);
             }else{
                 // check if we are below capacity
                 if (list.size() >= capacity) {
