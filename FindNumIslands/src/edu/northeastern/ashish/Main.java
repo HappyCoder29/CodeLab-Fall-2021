@@ -11,24 +11,6 @@ public class Main {
 
     }
 
-    public static int numIslands(int[][] matrix) {
-        if (matrix == null || matrix.length == 0) {
-            return 0;
-        }
-        int maxRow = matrix.length;
-        int maxCol = matrix[0].length;
-        int count = 0;
-        boolean[][] visited = new boolean[maxRow][maxCol];
-        for (int r = 0; r <= maxRow; ++r) {
-            for (int c = 0; c <= maxCol; ++c) {
-                if (matrix[r][c] == 1 && visited[r][c] == false) {
-                    ++count;
-                    //visitNeighbours(matrix,visited, r, c);
-                }
-            }
-        }
-        return count;
-    }
 
     private static int findNumIslands(String[][] matrix){
         int count = 0;
@@ -38,8 +20,8 @@ public class Main {
 
         boolean[][] visited = new boolean[rows][col];
 
-        for(int i = 0 ; i <= rows; i ++){
-            for(int j = 0 ; j <= col; j ++){
+        for(int i = 0 ; i < rows; i ++){
+            for(int j = 0 ; j < col; j ++){
                 if(matrix[i][j].equals("1") && visited[i][j] == false){
                     count++;
                     visitNeighbours(matrix, visited, i, j);
@@ -54,7 +36,7 @@ public class Main {
     static void visitNeighbours(String[][] matrix, boolean[][] visited , int row, int col) {
         int maxRow = matrix.length;
         int maxCol = matrix[0].length;
-        if (row < 0 || col < 0 || row >= maxRow || col >= maxCol || matrix[row][col].equals("0 ")|| visited[row][col] == true) {
+        if (row < 0 || col < 0 || row >= maxRow || col >= maxCol || matrix[row][col].equals("0")|| visited[row][col] == true) {
             return;
         }
         visited[row][col] = true;
