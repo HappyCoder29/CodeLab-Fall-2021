@@ -1,9 +1,10 @@
 package edu.northeastern.ashish;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
-public class PriorityQ {
-    ArrayList<Integer> list;
+public class PriorityQ<T extends Comparable> {
+    ArrayList<T> list;
     int size;
     int current;
 
@@ -16,7 +17,7 @@ public class PriorityQ {
         return  current == 0;
     }
 
-    public Integer peek(){
+    public T peek(){
         if(isEmpty()){
             return null;
         }
@@ -34,7 +35,7 @@ public class PriorityQ {
         return  2*index + 2;
     }
 
-    public void add(Integer data){
+    public void add(T data){
         list.add(current, data);
         current ++;
         siftUp(current);
@@ -45,10 +46,10 @@ public class PriorityQ {
             return;
         }
         int parentIndex = getParentIndex(current);
-        if(list.get(parentIndex) < list.get(current)){
+        if(list.get(parentIndex).compareTo(list.get(current))  < 0 ){
             return;
         }
-        Integer temp = list.get(parentIndex);
+        T temp = list.get(parentIndex);
         list.add(parentIndex, list.get(current));
         list.add(current, temp);
 
