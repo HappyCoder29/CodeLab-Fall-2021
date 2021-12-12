@@ -6,8 +6,8 @@ public class Main {
         Graph graph = initialize();
 //        Node node = graph.nodes.get("5");
 //        graph.topologicalSorting(node);
-      //  graph.topologicalSorting();
-        graph.topologicalSortingAllNodes();
+        graph.topologicalSorting();
+      //  graph.topologicalSortingAllNodes();
     }
 
     private static Graph initialize(){
